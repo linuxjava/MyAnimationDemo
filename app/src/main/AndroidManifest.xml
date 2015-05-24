@@ -1,0 +1,20 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="xiao.com.myanimation">
+
+    <application android:allowBackup="true" android:label="@string/app_name"
+        android:icon="@drawable/ic_launcher" android:theme="@android:style/Theme.Black.NoTitleBar">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.main"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".property.PropertyAnimationActivity"/>
+        <activity android:name=".view.TweenedAnimationActivity"/>
+        <activity android:name=".drawable.FrameAnimationActivity"/>
+        <activity android:name=".layout.LayoutAnimationActivity"/>
+        <activity android:name=".property.ObjectAnimatorActivity"/>
+        <activity android:name=".property.ValueAnimatorActivity"/>
+        <activity android:name=".property.AnimatorSetActivity"/>
+        <activity android:name=".property.LayoutAnimatorActivity"/>
+    </application>
+
+</manifest>

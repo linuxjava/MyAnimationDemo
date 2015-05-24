@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="view animation"
+        android:onClick="onViewAnmation"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="drawable animation"
+        android:onClick="onDrawableAnmation"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="layout animation"
+        android:onClick="onLayoutAnmation"
+        android:layout_marginBottom="15.0dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="property animation"
+        android:onClick="onPropertyAnmation"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="layout animator"
+        android:onClick="onLayoutAnimator"
+        android:layout_marginBottom="15.0dp"/>
+
+</LinearLayout>
